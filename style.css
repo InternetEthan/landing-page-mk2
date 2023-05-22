@@ -1,12 +1,13 @@
 * {
 font-family: "Roboto", sans-serif;
+margin: auto;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
     align-items: center;
-    padding: 0 125px;
+    padding: 5px 125px;
     background-color: #1f2937;
     font-size: 24px;
     color: #f9faf8;
@@ -18,4 +19,48 @@ font-family: "Roboto", sans-serif;
     list-style-type: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header__left {
+    min-width: 450px;
+}
+
+.header__right {
+    min-width: 450px;
+}
+
+.box1 {
+    background-color: #1f2937;
+    display: flex;
+    padding: 20px 125px;
+    gap: 20px;
+}
+
+.box1__left {
+    max-width: 450px;
+}
+
+.hero__logo {
+    max-width: 450px;
+    max-height:fit-content
+}
+
+.hero__title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero__subtext {
+    font-size: 18px;
+    font-weight: normal;
+    color: #e5e7eb;
+}
+
+.box2 {
+    padding: 20px 125px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
