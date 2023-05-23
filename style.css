@@ -64,3 +64,21 @@ margin: auto;
     font-weight: bolder;
     color: #1f2937;
 }
+
+.box2__container {
+    display: flex;
+    gap: 5px;
+}
+
+.graphic {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+}
+
+.illustration__text {
+    font-size: 18px;
+    font-weight: normal;
+    color: #1f2937;
+}
