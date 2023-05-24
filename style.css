@@ -82,3 +82,24 @@ margin: auto;
     font-weight: normal;
     color: #1f2937;
 }
+
+.box3 {
+    padding: 20px 125px;
+    text-align: center;
+    background-color:#e5e7eb ;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+}
+
+.contributor {
+    font-size: 36px;
+    font-weight: 500;
+    color: #1f2937;
+    text-align: right;
+}
